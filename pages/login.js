@@ -11,22 +11,19 @@ export default function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Imprimir la URL de la API para verificar si es correcta
+        // Verificar la URL de la API
         const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-        console.log("API URL:", apiUrl);  // Verifica que esta URL sea la correcta
+        console.log("API URL:", apiUrl);  // Verifica que esta URL sea correcta
 
         try {
-            // Hacer la solicitud POST con el username y password
             const response = await axios.post(`${apiUrl}/users/login`, {
                 username,
                 password,
             });
-
-            // Si la respuesta es correcta, guardar los datos del usuario y redirigir
+            // Si la solicitud es exitosa, se almacena la respuesta y se redirige
             localStorage.setItem('user', JSON.stringify(response.data.user));
             router.push('/profile');
         } catch (err) {
-            // En caso de error, mostrar un mensaje de error
             setError('Credenciales incorrectas, intenta de nuevo.');
         }
     };
