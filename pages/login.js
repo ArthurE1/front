@@ -10,8 +10,13 @@ export default function Login() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // Imprimir la URL de la API para verificar si es correcta
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+        console.log("API URL:", apiUrl);  // Verifica que esta URL sea la correcta
+
         try {
-            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/users/login`, {
+            const response = await axios.post(`${apiUrl}/users/login`, {
                 username,
                 password,
             });
