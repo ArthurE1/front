@@ -1,0 +1,59 @@
+[33mcommit 5990b4782fb9fea86855be4d10f24d28f8d1f4c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ArthurE1 <amendoza107@alumnos.uaq.mx>
+Date:   Tue Nov 26 20:16:06 2024 -0600
+
+    Restaurando archivos y configurando gitignore
+
+[33mcommit 664a762e3be588d9e7d8cb6733dcf4cbb1c489bf[m
+Author: ArthurE1 <amendoza107@alumnos.uaq.mx>
+Date:   Tue Nov 26 20:05:51 2024 -0600
+
+    Agregando archivo grande a Git LFS
+
+[33mcommit b8c9beb008f6a5315e2c68957e5753624321384b[m
+Author: ArthurE1 <amendoza107@alumnos.uaq.mx>
+Date:   Tue Nov 26 19:59:42 2024 -0600
+
+    Preparando frontend para producción
+
+[33mcommit c01cd86ebae6175df7e2f5e9462bdf7b042941c5[m
+Author: ArthurE1 <amendoza107@alumnos.uaq.mx>
+Date:   Tue Nov 26 19:11:33 2024 -0600
+
+    Actualizando .gitignore
+
+[33mcommit b965c1e1565e84c7c8fa061fd52558f1a50a0c4a[m
+Author: ArthurE1 <amendoza107@alumnos.uaq.mx>
+Date:   Tue Nov 26 18:55:26 2024 -0600
+
+    Subiendo frontend inicial
+
+[33mcommit 692262b8f33b12f9d231d55e85e1c82bcaeca728[m
+Author: carloemilio03 <carloemilio2003@gmail.com>
+Date:   Sun Nov 24 16:18:56 2024 -0600
+
+    Actualizando .gitignore para ignorar node_modules y archivos .node
+
+[33mcommit 643638b4943d1a05d9c42e5bc884be453abce866[m
+Author: carloemilio03 <carloemilio2003@gmail.com>
+Date:   Sun Nov 24 16:15:41 2024 -0600
+
+    Configurando Git LFS para archivos grandes
+
+[33mcommit e9cf1d864c94f63cd2808c0b6796714a1afe09fc[m
+Author: carloemilio03 <carloemilio2003@gmail.com>
+Date:   Sun Nov 24 16:09:02 2024 -0600
+
+    Ignorando archivos y carpetas innecesarias
+
+[33mcommit 56581218df591b58b2bb4edb4b04401bd6e6cced[m
+Author: carloemilio03 <carloemilio2003@gmail.com>
+Date:   Sun Nov 24 16:04:02 2024 -0600
+
+    Eliminando node_modules del repositorio
+
+[33mcommit 7ef9898da6555f21f22fab477617daed69d6e513[m
+Author: carloemilio03 <carloemilio2003@gmail.com>
+Date:   Sun Nov 24 15:59:12 2024 -0600
+
+    Subiendo archivo frontend
